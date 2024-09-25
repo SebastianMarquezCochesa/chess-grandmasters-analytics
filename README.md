@@ -40,3 +40,13 @@ This template provides a basic structure for data engineering or data science pr
 │
 ├── requirements.txt   <- The requirements file for reproducing the environment
 ```
+## Adjusting .gitignore
+
+Ensure to adjust the `.gitignore` file according to your project needs. For example, since this is a template, the `/data/` folder is commented out and data will not be exlucded from source control:
+
+```plaintext
+# exclude data from source control by default
+# /data/
+```
+
+Typically, its convenient to exclude this folder if it contains either sensitive data that shouldn't be added to version control or large files.
