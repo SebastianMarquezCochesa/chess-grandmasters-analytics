@@ -1,12 +1,12 @@
-# Project Template
+# Chess GrandMasters Analytics (In Progress...)
 
-This template provides a basic structure for data engineering or data science projects. It serves as a starting point to organize code, data, and models clearly and modularly.
+A project dedicated to analyzing chess grandmasters' games using data obtained from the [Chess.com API](https://www.chess.com/news/view/published-data-api). This project aims to explore various aspects of grandmaster's gameplay, including the most common openings, the number of moves per game, and overall game statistics. The goal is to provide insights and visualizations that can help chess enthusiasts and players understand the strategies employed by top players.
 
 ## Directory Structure
 
 ```
-├── LICENSE                    <- Open-source license if applicable
-├── README.md                  <- The top-level README for developers using this project
+├── LICENSE                    
+├── README.md                  
 ├── data
 │   ├── external               <- Data from third-party sources
 │   ├── raw                    <- Original, immutable data dump
@@ -39,13 +39,4 @@ This template provides a basic structure for data engineering or data science pr
 │
 ├── requirements.txt           <- The requirements file for reproducing the environment
 ```
-## Adjusting .gitignore
 
-Ensure to adjust the `.gitignore` file according to your project needs. For example, since this is a template, the `/data/` folder is commented out and data will not be exlucded from source control:
-
-```plaintext
-# exclude data from source control by default
-# /data/
-```
-
-Typically, its convenient to exclude this folder if it contains either sensitive data that shouldn't be added to version control or large files.
